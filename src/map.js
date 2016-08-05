@@ -35,7 +35,7 @@ module.exports = {
         Module: 'modules',
         ModuleSeed: 'module-seeds',
     },
-    merchandisher:
+    merchandiser:
     {
         SPKDoc: 'spk-docs'
     }
