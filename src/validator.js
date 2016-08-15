@@ -2,6 +2,7 @@ module.exports = {
     core: {
         module: require("./core/module-validator"),
         moduleSeed: require("./core/module-seed-validator"),
+        account: require("./core/account-validator"),
         article: {
             articleApproval: require("./core/article/article-approval-validator"),
             articleBrand: require("./core/article/article-brand-validator"),
@@ -33,7 +34,8 @@ module.exports = {
             transferInDoc: require("./inventory/transfer-in-doc-validator"),
             transferInItem: require("./inventory/transfer-in-item-validator"),
             transferOutDoc: require("./inventory/transfer-out-doc-validator"),
-            transferOutItem: require("./inventory/transfer-out-item-validator")
+            transferOutItem: require("./inventory/transfer-out-item-validator"),
+            supplier: require("./inventory/supplier-validator"),
     },
     manufacture: {
             finishingItem: require("./manufacture/finishing-item-validator"),

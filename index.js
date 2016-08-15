@@ -2,6 +2,7 @@ module.exports = {
     core: {
         Module: require('./src/core/module'),
         ModuleSeed: require('./src/core/module-seed'),
+        Account: require('./src/core/account'),
 
         article: {
             ArticleApproval: require('./src/core/article/article-approval'),
@@ -32,7 +33,8 @@ module.exports = {
         TransferOutDoc: require('./src/inventory/transfer-out-doc'),
         TransferOutItem: require('./src/inventory/transfer-out-item'),
         FinishedGoodsDoc: require('./src/inventory/finished-goods-doc'),
-        ExpeditionDoc: require('./src/inventory/expedition-doc')
+        ExpeditionDoc: require('./src/inventory/expedition-doc'),
+        Supplier: require('./src/inventory/supplier')
     },
     manufacture: {
         FinishingItem: require('./src/manufacture/finishing-item'),

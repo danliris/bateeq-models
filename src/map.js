@@ -8,7 +8,8 @@ module.exports = {
         TransferInDoc: 'transfer-in-docs',
         TransferOutDoc: 'transfer-out-docs',
         FinishedGoodsDoc: 'finished-goods-docs',
-        ExpeditionDoc: 'expedition-docs'
+        ExpeditionDoc: 'expedition-docs',
+        Supplier: 'suppliers'
     },
     manufacture: {
         Finishing: 'finishings'
@@ -16,6 +17,7 @@ module.exports = {
     core: {
         Module: 'modules',
         ModuleSeed: 'module-seeds',
+        Account: 'accounts',
         article: {
             ArticleApproval: 'article-approvals',
             ArticleBrand: 'article-brands',
