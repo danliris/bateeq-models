@@ -1,7 +1,6 @@
 module.exports = {
     core: {
-        Module: require('./src/core/module'),
-        ModuleSeed: require('./src/core/module-seed'),
+        Module: require('./src/core/module'), 
         Account: require('./src/core/account'),
 
         article: {
@@ -49,7 +48,8 @@ module.exports = {
     master: {
         FinishedGoods: require('./src/master/finished-goods'),
         Item: require('./src/master/item'),
-        component: require('./src/master/component'),
+        Material: require('./src/master/material'),
+        Component: require('./src/master/component'),
         article: {
             ArticleApproval: require('./src/master/article/article-approval'),
             ArticleBrand: require('./src/master/article/article-brand'),

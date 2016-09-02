@@ -1,5 +1,4 @@
-require("should");
-
+require("should"); 
 
 var validateItem = function(data) {
     data.should.not.equal(null);
@@ -12,15 +11,16 @@ var validateItem = function(data) {
     data.name.should.instanceof(String);
 
     data.should.have.property('description');
-    data.description.should.instanceof(String);  
+    data.description.should.instanceof(String); 
     
-    data.should.have.property('components');
-    data.components.should.instanceof(Array);
-    for (var item of data.components)
-        validateItem(item);
+    data.should.have.property('uom');
+    data.uom.should.instanceof(String);  
 
     data.should.have.property('tags');
     data.tags.should.instanceof(String);
+    
+    data.should.have.property('components');
+    data.components.should.instanceof(Array);
 };
 
 module.exports = validateItem;

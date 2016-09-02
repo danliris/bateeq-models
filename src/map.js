@@ -17,8 +17,7 @@ module.exports = {
         FabricConsumptionDocument: 'fabric-consumption-documents'
     },
     core: {
-        Module: 'modules',
-        ModuleSeed: 'module-seeds',
+        Module: 'modules', 
         Account: 'accounts',
         article: {
             ArticleApproval: 'article-approvals',
@@ -42,7 +41,8 @@ module.exports = {
     },
     master: {
         Item: 'items',
-        FinishedGoods: 'finished-goods',
+        FinishedGoods: 'items',
+        Material:'items',
         article: {
             ArticleApproval: 'article-approvals',
             ArticleBrand: 'article-brands',
