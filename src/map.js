@@ -1,6 +1,7 @@
 module.exports = {
     inventory: {
         Storage: 'storages',
+        Store: 'stores',
         StockIn: 'stock-ins',
         StockOut: 'stock-outs',
         Inventory: 'inventories',
@@ -65,5 +66,13 @@ module.exports = {
     },
     merchandiser: {
         SPKDoc: 'spk-docs'
+    },
+    posmaster: {
+        Bank: 'banks',
+        CardType: 'card-types',
+        PaymentType: 'payment-types'
+    },
+    pos: {
+        PaymentDoc: 'payment-documents'
     }
 }
