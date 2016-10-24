@@ -85,5 +85,11 @@ module.exports = {
         paymentDoc: require("./pos/pos-payment-doc-validator"),
         paymentItem: require("./pos/pos-payment-item-validator"),
         paymentDetail: require("./pos/pos-payment-detail-validator")
+    },
+    promo: {
+        promoDoc: require("./promo/promo-doc-validator"),
+        promoProduct: require("./promo/promo-product-validator"),
+        promoDiscount: require("./promo/promo-discount-validator"),
+        rewardType: require("./promo/reward-type-validator")
     }
 };

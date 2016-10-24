@@ -74,5 +74,11 @@ module.exports = {
     },
     pos: {
         PaymentDoc: 'payment-documents'
+    },
+    promo: {
+        PromoDoc: 'promo-documents',
+        PromoProduct: 'promo-products',
+        PromoDiscount: 'promo-discounts',
+        RewardType: 'reward-types'
     }
 }
