@@ -25,6 +25,9 @@ module.exports = function(data) {
     data.should.have.property('discount2');
     data.discount2.should.be.Number();
     
+    data.should.have.property('discountNominal');
+    data.discountNominal.should.be.Number();
+    
     data.should.have.property('margin');
     data.margin.should.be.Number();
     

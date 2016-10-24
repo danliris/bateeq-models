@@ -15,6 +15,7 @@ module.exports = class PosPaymentItem extends BaseModel {
         this.price = 0;
         this.discount1 = 0;
         this.discount2 = 0;
+        this.discountNominal = 0;
         this.margin = 0;
         this.specialDiscount = 0;
         this.total = 0;
