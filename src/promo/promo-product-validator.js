@@ -12,10 +12,6 @@ module.exports = function(data) {
     data.should.have.property('articleVariant');
     data.articleVariant.should.instanceof(Object); 
     
-    data.should.have.property('promoDiscounts');
-    data.promoDiscounts.should.instanceof(Array); 
-        
-    for (var promoDiscount of data.promoDiscounts) {
-        validatePromoDiscount(promoDiscount);
-    }
+    data.should.have.property('promoDiscount');
+    data.promoDiscount.should.instanceof(Object);  
 };

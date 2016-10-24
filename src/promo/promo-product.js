@@ -9,14 +9,8 @@ module.exports = class PromoProduct extends BaseModel {
     
         this.articleVariantId = {};
         this.articleVariant = {};
-        this.promoDiscounts = [];
+        this.promoDiscount = {};
         
         this.copy(source);
-        
-        var _promoDiscounts = [];
-        for(var promoDiscount of this.promoDiscounts)
-        {
-            _promoDiscounts.push(new PromoDiscount(promoDiscount));
-        }
     }
 }
