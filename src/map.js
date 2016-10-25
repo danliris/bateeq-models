@@ -1,6 +1,7 @@
 module.exports = {
     inventory: {
         Storage: 'storages',
+        Store: 'stores',
         StockIn: 'stock-ins',
         StockOut: 'stock-outs',
         Inventory: 'inventories',
