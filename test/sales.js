@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var validate = require('../src/validator').sales;
 
 it("#01. SalesDoc should valid", function(){
@@ -25,11 +24,3 @@ it("#05. Reward Type should valid", function(){
     var RewardType = require('../src/sales/reward-type');
     validate.rewardType(new RewardType());
 })
-=======
-var validate = require('../src/validator').pos;
-
-it("#01. PaymentDoc should valid", function(){
-    var PaymentDoc = require('../src/pos/pos-payment-doc');
-    validate.paymentDoc(new PaymentDoc());
-}) 
->>>>>>> upstream/master

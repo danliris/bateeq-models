@@ -30,7 +30,6 @@ module.exports = {
         inventory: require("./inventory/inventory-validator"),
         inventoryMovement: require("./inventory/inventory-movement-validator"),
         storage: require("./inventory/storage-validator"),
-        store: require("./inventory/store-validator"),
         transferInDoc: require("./inventory/transfer-in-doc-validator"),
         transferInItem: require("./inventory/transfer-in-item-validator"),
         transferOutDoc: require("./inventory/transfer-out-doc-validator"),
