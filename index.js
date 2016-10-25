@@ -84,7 +84,7 @@ module.exports = {
         Promo: require('./src/sales/promo-doc'),
         PromoProduct: require('./src/sales/promo-product'),
         PromoDiscount: require('./src/sales/promo-discount'),
-        RewardType: require('./src/sales/reward-type')
+        RewardType: require('./src/sales/reward-type') 
     },
     map: require("./src/map"),
     validator: require("./src/validator")
