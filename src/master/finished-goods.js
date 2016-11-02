@@ -9,6 +9,7 @@ module.exports = class FinishedGoods extends Item {
         // Define properties.
         this.articleId = {}; 
         this.article = {}; 
+        this.size = ''; 
         
         this.domesticCOGS = 0;
         this.domesticWholesale = 0;
