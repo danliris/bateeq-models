@@ -63,7 +63,6 @@ module.exports = {
         Sales: require('./src/sales/sales-doc'),
         SalesItem: require('./src/sales/sales-item'),
         SalesDetail: require('./src/sales/sales-detail'),
-        RewardType: require('./src/sales/reward-type'),
         Promo: require('./src/sales/promo'),
         PromoCriteria: require('./src/sales/promo-criteria'),
         PromoReward: require('./src/sales/promo-reward'),

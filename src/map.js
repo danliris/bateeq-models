@@ -61,7 +61,6 @@ module.exports = {
     }, 
     sales: {
         SalesDoc: 'sales-docs',
-        RewardType: 'reward-types',
         Promo: 'promos'
     }
 }
