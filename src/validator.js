@@ -66,9 +66,11 @@ module.exports = {
         salesDoc: require("./sales/sales-doc-validator"),
         salesItem: require("./sales/sales-item-validator"),
         salesDetail: require("./sales/sales-detail-validator"),
-        promoDoc: require("./sales/promo-doc-validator"),
-        promoProduct: require("./sales/promo-product-validator"),
-        promoDiscount: require("./sales/promo-discount-validator"),
-        rewardType: require("./sales/reward-type-validator")
+        rewardType: require("./sales/reward-type-validator"),
+        promo: require("./sales/promo-validator"),
+        promoCriteria: require("./sales/promo-criteria-validator"),
+        promoReward: require("./sales/promo-reward-validator"),
+        promoCriteriaSelectedProduct: require("./sales/promo-criteria-selected-product-validator"),
+        promoRewardDiscountProduct: require("./sales/promo-reward-discount-product-validator")
     }
 };
