@@ -70,6 +70,8 @@ module.exports = {
         promoCriteria: require("./sales/promo-criteria-validator"),
         promoReward: require("./sales/promo-reward-validator"),
         promoCriteriaSelectedProduct: require("./sales/promo-criteria-selected-product-validator"),
-        promoRewardDiscountProduct: require("./sales/promo-reward-discount-product-validator")
+        promoRewardDiscountProduct: require("./sales/promo-reward-discount-product-validator"),
+        promoCriteriaPackage: require("./sales/promo-criteria-package-validator"),
+        promoRewardSpecialPrice: require("./sales/promo-reward-special-price-validator")
     }
 };

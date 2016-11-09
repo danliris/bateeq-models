@@ -30,3 +30,14 @@ it("#06. PromoRewardDiscountProduct should valid", function(){
     validate.promoRewardDiscountProduct(new PromoRewardDiscountProduct());
 })
 
+it("#07. PromoCriteriaPackage should valid", function(){
+    var PromoCriteriaPackage = require('../src/sales/promo-criteria-package');
+    validate.promoCriteriaPackage(new PromoCriteriaPackage());
+})
+
+it("#08. PromoRewardSpecialPrice should valid", function(){
+    var PromoRewardSpecialPrice = require('../src/sales/promo-reward-special-price');
+    validate.promoRewardSpecialPrice(new PromoRewardSpecialPrice());
+})
+
+

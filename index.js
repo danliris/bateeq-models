@@ -67,7 +67,9 @@ module.exports = {
         PromoCriteria: require('./src/sales/promo-criteria'),
         PromoReward: require('./src/sales/promo-reward'),
         PromoCriteriaSelectedProduct: require('./src/sales/promo-criteria-selected-product'),
-        PromoRewardDiscountProduct: require('./src/sales/promo-reward-discount-product')
+        PromoRewardDiscountProduct: require('./src/sales/promo-reward-discount-product'),
+        PromoCriteriaPackage: require('./src/sales/promo-criteria-package'),
+        PromoRewardSpecialPrice: require('./src/sales/promo-reward-special-price')
     },
     map: require("./src/map"),
     validator: require("./src/validator")
