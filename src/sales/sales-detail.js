@@ -19,6 +19,7 @@ module.exports = class SalesDetail extends BaseModel {
         this.cardName = ''; 
         this.cashAmount = 0; 
         this.cardAmount = 0; 
+        this.isRetur = false; 
 
         this.copy(source);
     }

@@ -36,5 +36,7 @@ module.exports = function(data) {
     
     data.should.have.property('cashAmount');
     data.cashAmount.should.be.Number();
- 
+    
+    data.should.have.property('isRetur');
+    data.isRetur.should.be.Boolean(); 
 };
