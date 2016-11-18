@@ -45,4 +45,3 @@ it("#09. SalesReturnDoc should valid", function(){
     validate.salesReturnDoc(new SalesReturnDoc());
 }) 
 
-
