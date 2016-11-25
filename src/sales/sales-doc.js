@@ -26,7 +26,7 @@ module.exports = class SalesDoc extends BaseModel {
         this.remark = '';
 
         this.isReturn = false;
-        
+        this.isVoid = false;
         this.copy(source);
         
         this.salesDetail = new SalesDetail(this.salesDetail);
