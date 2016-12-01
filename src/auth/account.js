@@ -8,11 +8,12 @@ module.exports = class Account extends BaseModel {
         super('account', '1.0.0');
 
         // Define properties.  
-        this.username = '';
-        this.password = '';
+        this.username = "";
+        this.password = "";
         this.isLocked = false;
         this.profile = new Profile();
         this.roles = [];
+        this.stores = [];
 
         this.copy(source);
     }

@@ -1,6 +1,7 @@
 require("should");
 
 var validateRole = require('./role-validator');
+var validateStore = require('../master/store-validator');
 var validateProfile = require('./profile-validator');
 
 module.exports = function(data) {
@@ -18,10 +19,18 @@ module.exports = function(data) {
 
     data.should.have.property('roles');
     data.roles.should.instanceof(Array);
-    for (var role of data.roles)
+    
+    data.should.have.property('stores');
+    data.stores.should.instanceof(Array);
+    
+    for (var role of data.roles) {
         validateRole(role);
-
-
+    }
+        
+    for (var store of data.stores) {
+        validateStore(store);
+    }
+ 
     data.should.have.property('profile');
     data.profile.should.instanceof(Object);
     validateProfile(data.profile);
