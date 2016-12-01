@@ -28,7 +28,7 @@ module.exports = function(data) {
     }
         
     for (var store of data.stores) {
-        validateStore(role);
+        validateStore(store);
     }
  
     data.should.have.property('profile');
