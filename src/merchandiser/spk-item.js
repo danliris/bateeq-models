@@ -1,6 +1,6 @@
 'use strict'
 
-var BaseModel = require('capital-models').BaseModel;
+var BaseModel = require('model-toolkit').BaseModel;
 var Item = require('../master/item');
 
 module.exports = class SPKItem extends BaseModel {

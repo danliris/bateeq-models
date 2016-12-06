@@ -1,6 +1,6 @@
 'use strict'
 
-var BaseModel = require('capital-models').BaseModel; 
+var BaseModel = require('model-toolkit').BaseModel; 
 var ExpeditionSpk = require('./expedition-spk');
 var TransferOut = require('./transfer-out-doc');
 
