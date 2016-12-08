@@ -18,6 +18,7 @@ module.exports = class SalesReturnDoc extends BaseModel {
         this.storeId = {};
         this.store = {};
         this.returnItems = [];
+        this.isVoid = false;
         
         this.copy(source);
         
