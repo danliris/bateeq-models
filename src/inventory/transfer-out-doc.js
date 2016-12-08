@@ -1,6 +1,6 @@
 'use strict'
 
-var BaseModel = require('capital-models').BaseModel;
+var BaseModel = require('model-toolkit').BaseModel;
 var TransferOutItem = require('./transfer-out-item');
 
 module.exports = class TransferOutDoc extends BaseModel {

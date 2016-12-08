@@ -1,6 +1,6 @@
 'use strict';
 
-var BaseModel = require('capital-models').BaseModel;
+var BaseModel = require('model-toolkit').BaseModel;
 // var Component = require('./component');
 
 module.exports = class Item extends BaseModel {

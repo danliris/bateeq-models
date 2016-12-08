@@ -1,6 +1,6 @@
 'use strict'
 
-var BaseModel = require('capital-models').BaseModel;
+var BaseModel = require('model-toolkit').BaseModel;
 var ArticleVariant = require('./article-variant');
 
 module.exports = class ArticleVariantFinishing extends BaseModel {

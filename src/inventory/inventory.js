@@ -1,6 +1,6 @@
 'use strict';
 
-var BaseModel = require('capital-models').BaseModel;
+var BaseModel = require('model-toolkit').BaseModel;
 var Storage = require('../master/storage');
 var Item = require('../master/item');
 
