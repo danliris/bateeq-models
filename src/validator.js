@@ -46,7 +46,9 @@ module.exports = {
         cardType: require("./master/card-type-validator"),
         module: require("./master/module-validator"),
         store: require("./master/store-validator"),
-        storeShift: require("./master/store-shift-validator")
+        storeShift: require("./master/store-shift-validator"),
+        division: require("./master/division-validator"),
+        unit: require("./master/unit-validator")
     },
     manufacture: {
         fabricConsumptionDocument: require("./manufacture/fabric-consumption-document-validator"),

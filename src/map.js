@@ -24,11 +24,11 @@ module.exports = {
         Finishing: 'finishings',
         CostCalculationDocument: 'cost-calculation-documents',
         FabricConsumptionDocument: 'fabric-consumption-documents'
-    }, 
+    },
     master: {
         Item: 'items',
         FinishedGoods: 'items',
-        Material:'items',
+        Material: 'items',
         article: {
             ArticleApproval: 'article-approvals',
             ArticleBrand: 'article-brands',
@@ -50,15 +50,22 @@ module.exports = {
         },
         Module: 'modules',
         Bank: 'banks',
-        CardType: 'card-types', 
+        CardType: 'card-types',
         Store: 'stores',
         Storage: 'storages',
         Supplier: 'suppliers',
-        StoreShift: 'store-shifts'
+        StoreShift: 'store-shifts',
+        Division: 'division',
+        Unit: 'unit',
+        collection: {
+            Division: 'divisions',
+            Unit: 'units'
+        }
+
     },
     merchandiser: {
         SPKDoc: 'spk-docs'
-    }, 
+    },
     sales: {
         SalesDoc: 'sales-docs',
         SalesReturnDoc: 'sales-return-docs',

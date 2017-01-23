@@ -53,7 +53,9 @@ module.exports = {
         }, 
         Bank: require('./src/master/bank'),
         CardType: require('./src/master/card-type'), 
-        Store: require('./src/master/store')
+        Store: require('./src/master/store'),
+        Division: require('./src/master/division'),
+        Unit: require('./src/master/unit')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
