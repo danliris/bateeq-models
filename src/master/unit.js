@@ -1,7 +1,7 @@
 'use strict';
 
 var BaseModel = require('model-toolkit').BaseModel;
-var division = require('./division'); 
+var division = require('./division');
 
 module.exports = class Unit extends BaseModel {
     constructor(source) {
@@ -9,6 +9,7 @@ module.exports = class Unit extends BaseModel {
 
         // Define properties.  
         this.code = '';
+        this.name = '';
         this.divisionId = {};
         this.division = new division();
         this.storeId = {};
