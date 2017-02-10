@@ -57,9 +57,11 @@ module.exports = {
         StoreShift: 'store-shifts',
         Division: 'division',
         Unit: 'unit',
+        Colour: 'colours',
         collection: {
             Division: 'divisions',
-            Unit: 'units'
+            Unit: 'units',
+            Colour: 'colours'
         }
 
     },
