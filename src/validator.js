@@ -48,7 +48,8 @@ module.exports = {
         store: require("./master/store-validator"),
         storeShift: require("./master/store-shift-validator"),
         division: require("./master/division-validator"),
-        unit: require("./master/unit-validator")
+        unit: require("./master/unit-validator"),
+        colour: require("./master/colour-validator")
     },
     manufacture: {
         fabricConsumptionDocument: require("./manufacture/fabric-consumption-document-validator"),

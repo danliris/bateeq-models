@@ -7,10 +7,13 @@ module.exports = class FinishedGoods extends Item {
         super(source, '1.0.0', 'finished-goods');
 
         // Define properties.
-        this.articleId = {}; 
-        this.article = {}; 
-        this.size = ''; 
-        
+        this.articleId = {};
+        this.article = {};
+        this.size = '';
+        this.pathImage = '';
+        this.pathMotif = '';
+        this.codeColor = '';
+        this.colourDoc = {};
         this.domesticCOGS = 0;
         this.domesticWholesale = 0;
         this.domesticRetail = 0;
@@ -20,7 +23,7 @@ module.exports = class FinishedGoods extends Item {
         this.internationalWholesale = 0;
         this.internationalRetail = 0;
         this.internationalSale = 0;
-  
+
         this.copy(source);
     }
 }

@@ -50,17 +50,18 @@ module.exports = {
             ArticleType: require('./src/master/article/article-type'),
             ArticleVariant: require('./src/master/article/article-variant'),
             Article: require('./src/master/article/article'),
-        }, 
+        },
         Bank: require('./src/master/bank'),
-        CardType: require('./src/master/card-type'), 
+        CardType: require('./src/master/card-type'),
         Store: require('./src/master/store'),
         Division: require('./src/master/division'),
-        Unit: require('./src/master/unit')
+        Unit: require('./src/master/unit'),
+        Colour: require('./src/master/colour')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
         SPKItem: require('./src/merchandiser/spk-item')
-    }, 
+    },
     sales: {
         Sales: require('./src/sales/sales-doc'),
         SalesItem: require('./src/sales/sales-item'),
