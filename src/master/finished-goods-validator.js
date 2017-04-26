@@ -13,18 +13,21 @@ module.exports = function (data) {
     data.should.have.property('size');
     data.size.should.instanceof(String);
 
-    data.should.have.property('pathImage');
+    data.should.have.property('imagePath');
     data.pathImage.should.instanceof(String);
 
-    data.should.have.property('pathMotif');
+    data.should.have.property('motifPath');
     data.pathMotif.should.instanceof(String);
 
-    data.should.have.property('codeColor');
+    data.should.have.property('colorCode');
     data.codeColor.should.instanceof(String);
 
-    data.should.have.property('colourDoc');
+    data.should.have.property('colorDoc');
     data.colourDoc.should.instanceof(Object);
 
+    data.should.have.property('motifDoc');
+    data.colourDoc.should.instanceof(Object);
+    
     data.should.have.property('domesticCOGS');
     data.domesticCOGS.should.be.Number();
 
