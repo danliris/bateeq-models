@@ -10,6 +10,7 @@ module.exports = class ArticleMotif extends BaseModel {
         this.code = '';
         this.name = '';
         this.description = '';
+        this.filePath = '';
 
         this.copy(source);
     }

@@ -10,6 +10,9 @@ module.exports = function(data) {
     data.should.have.property('name');
     data.name.should.instanceof(String);
 
+    data.should.have.property('filePath');
+    data.name.should.instanceof(String);
+
     data.should.have.property('description');
     data.description.should.instanceof(String);
 };
