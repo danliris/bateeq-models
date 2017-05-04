@@ -6,17 +6,20 @@ module.exports = function(data) {
     data.should.not.equal(null);
     data.should.instanceof(Object);
 
-   data.should.have.property('code');
+    data.should.have.property('code');
     data.code.should.instanceof(String);
 
     data.should.have.property('date');
     data.date.should.instanceof(Date);
 
     data.should.have.property('expedition');
-    data.expedition.should.instanceof(String);
+    data.expedition.should.instanceof(Object);
     
     data.should.have.property('weight');
-    data.weight.should.instanceof(String); 
+    data.weight.should.be.Number();
+    
+    data.should.have.property('remark');
+    data.remark.should.instanceof(String);
     
     data.should.have.property('transferOutDocuments');
     data.transferOutDocuments.should.instanceof(Array);
