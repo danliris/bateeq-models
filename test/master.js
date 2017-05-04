@@ -70,3 +70,8 @@ it("#14. Colour should valid", function () {
     validate.colour(new Colour());
 })
 
+it("#15. Expedition Service should valid", function () {
+    var ExpeditionService = require('../src/master/expedition-service');
+    validate.colour(new ExpeditionService());
+})
+
