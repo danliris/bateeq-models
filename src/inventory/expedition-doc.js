@@ -1,7 +1,7 @@
 'use strict'
 
 var BaseModel = require('model-toolkit').BaseModel; 
-var ExpeditionSpk = require('./expedition-spk');
+var SPKDoc = require('./expedition-spk');
 var TransferOut = require('./transfer-out-doc');
 
 module.exports = class Expeditions extends BaseModel {
@@ -11,8 +11,9 @@ module.exports = class Expeditions extends BaseModel {
         // Define properties.
         this.code = '';
         this.date = new Date();
-        this.expedition = '';
-        this.weight = '';
+        this.expedition = {};
+        this.weight = 0;
+        this.remark = '';
         // this.transferOutDocumentId = {};
         // this.transferOutDocument = {};
         this.transferOutDocuments = [];
@@ -31,7 +32,7 @@ module.exports = class Expeditions extends BaseModel {
         
         var _spkDocuments = [];
         for(var spkDocument of this.spkDocuments) {
-            _spkDocuments.push(new ExpeditionSpk(spkDocument));
+            _spkDocuments.push(new SPKDoc(spkDocument));
         }
         this.spkDocuments = _spkDocuments;
     }
