@@ -14,19 +14,19 @@ module.exports = function (data) {
     data.size.should.instanceof(String);
 
     data.should.have.property('imagePath');
-    data.pathImage.should.instanceof(String);
+    data.imagePath.should.instanceof(String);
 
     data.should.have.property('motifPath');
-    data.pathMotif.should.instanceof(String);
+    data.motifPath.should.instanceof(String);
 
     data.should.have.property('colorCode');
-    data.codeColor.should.instanceof(String);
+    data.colorCode.should.instanceof(String);
 
     data.should.have.property('colorDoc');
-    data.colourDoc.should.instanceof(Object);
+    data.colorDoc.should.instanceof(Object);
 
     data.should.have.property('motifDoc');
-    data.colourDoc.should.instanceof(Object);
+    data.motifDoc.should.instanceof(Object);
     
     data.should.have.property('domesticCOGS');
     data.domesticCOGS.should.be.Number();
