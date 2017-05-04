@@ -62,8 +62,8 @@ module.exports = {
             Division: 'divisions',
             Unit: 'units',
             Colour: 'colours'
-        }
-
+        },
+        ExpeditionService: 'expedition-services'
     },
     merchandiser: {
         SPKDoc: 'spk-docs'

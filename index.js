@@ -56,7 +56,8 @@ module.exports = {
         Store: require('./src/master/store'),
         Division: require('./src/master/division'),
         Unit: require('./src/master/unit'),
-        Colour: require('./src/master/colour')
+        Colour: require('./src/master/colour'),
+        ExpeditionService: require('./src/master/expedition-service')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
