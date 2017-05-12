@@ -13,6 +13,9 @@ module.exports = function(data) {
     data.should.have.property('quantity');
     data.quantity.should.be.Number();
 
+    data.should.have.property('sendQuantity');
+    data.sendQuantity.should.be.Number();
+
     data.should.have.property('remark');
     data.remark.should.instanceof(String);
 };

@@ -12,6 +12,7 @@ module.exports = class SPKItem extends BaseModel {
         this.item = new Item();
         this.quantity = 0;
         this.remark = '';
+        this.sendQuantity = 0;
 
         this.copy(source);
     }
