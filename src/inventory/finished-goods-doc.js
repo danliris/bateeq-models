@@ -13,8 +13,7 @@ module.exports = class FinishedGoods extends BaseModel {
         this.transferOutDocumentId = {};
         this.transferOutDocument = {};
         this.storageId = {};
-        this.date = new Date();
-        
+        this.date = new Date();        
         this.copy(source);
     }
 }

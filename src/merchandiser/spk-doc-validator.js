@@ -1,7 +1,7 @@
 require("should");
 var validateSPKItem = require("./spk-item-validator");
 
-module.exports = function(data) {
+module.exports = function (data) {
     data.should.not.equal(null);
     data.should.instanceof(Object);
 
@@ -13,9 +13,10 @@ module.exports = function(data) {
 
     data.should.have.property('reference');
     data.reference.should.instanceof(String);
-    
+
     data.should.have.property('expeditionDocumentId');
     data.expeditionDocumentId.should.instanceof(Object);
+
     data.should.have.property('expeditionDocument');
     data.expeditionDocument.should.instanceof(Object);
 
@@ -26,6 +27,7 @@ module.exports = function(data) {
 
     data.should.have.property('destinationId');
     data.destinationId.should.instanceof(Object);
+
     data.should.have.property('destination');
     data.destination.should.instanceof(Object);
 

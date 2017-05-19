@@ -12,7 +12,9 @@ module.exports = {
         TransferOutDoc: require('./src/inventory/transfer-out-doc'),
         TransferOutItem: require('./src/inventory/transfer-out-item'),
         FinishedGoodsDoc: require('./src/inventory/finished-goods-doc'),
-        ExpeditionDoc: require('./src/inventory/expedition-doc')
+        ExpeditionDoc: require('./src/inventory/expedition-doc'),
+        AdjusmentDoc: require('./src/inventory/adjustment-doc'),
+        AdjusmentItem: require('./src/inventory/adjustment-item')
     },
     manufacture: {
         FabricConsumptionDocument: require('./src/manufacture/fabric-consumption-document'),

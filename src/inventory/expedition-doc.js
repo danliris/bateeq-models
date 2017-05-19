@@ -13,15 +13,9 @@ module.exports = class Expeditions extends BaseModel {
         this.date = new Date();
         this.expedition = {};
         this.weight = 0;
-        this.remark = '';
-        // this.transferOutDocumentId = {};
-        // this.transferOutDocument = {};
-        this.transferOutDocuments = [];
-        
-        // this.spkDocumentId = {};
-        // this.spkDocuments = {};
-        this.spkDocuments = [];
-        
+        this.remark = ''; 
+        this.transferOutDocuments = []; 
+        this.spkDocuments = [];        
         this.copy(source);
         
         var _transferOutDocuments = [];

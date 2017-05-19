@@ -15,6 +15,8 @@ module.exports = {
         transferInItem: require("./inventory/transfer-in-item-validator"),
         transferOutDoc: require("./inventory/transfer-out-doc-validator"),
         transferOutItem: require("./inventory/transfer-out-item-validator"),
+        adjustmentDoc: require("./inventory/adjustment-doc-validator"),
+        adjustmentItem: require("./inventory/adjustment-item-validator"),
     },
     master: {
         article: {
