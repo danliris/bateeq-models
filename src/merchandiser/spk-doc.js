@@ -10,30 +10,22 @@ module.exports = class SPKDoc extends BaseModel {
         // Define properties.
         this.code = '';
         this.date = new Date();
-        
         this.reference = '';
-        
         this.expeditionDocumentId = {};
         this.expeditionDocument = {};
-        
         this.sourceId = {};
         this.source = {};
-        
         this.destinationId = {};
         this.destination = {};
-
         this.items = [];
         this.isDraft = false;
         this.packingList = '';
-        this.password='';
-        
-        this.isReceived=false;
-        
+        this.password = '';
+        this.isReceived = false;
         this.copy(source);
-        
+
         var _items = [];
-        for(var item of this.items)
-        {
+        for (var item of this.items) {
             _items.push(new SPKItem(item));
         }
         this.items = _items;

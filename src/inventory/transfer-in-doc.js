@@ -10,23 +10,17 @@ module.exports = class TransferInDoc extends BaseModel {
         // Define properties.
         this.code = '';
         this.date = new Date();
-        
         this.reference = '';
-        
         this.sourceId = {};
         this.source = {};
-        
         this.destinationId = {};
         this.destination = {};
-
         this.items = [];
         this.remark = '';
-
         this.copy(source);
-        
+
         var _items = [];
-        for(var item of this.items)
-        {
+        for (var item of this.items) {
             _items.push(new TransferInItem(item));
         }
         this.items = _items;

@@ -16,11 +16,13 @@ module.exports = function(data) {
 
     data.should.have.property('sourceId');
     data.sourceId.should.instanceof(Object);
+
     data.should.have.property('source');
     data.source.should.instanceof(Object);
 
     data.should.have.property('destinationId');
     data.destinationId.should.instanceof(Object);
+    
     data.should.have.property('destination');
     data.destination.should.instanceof(Object);
 

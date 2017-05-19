@@ -9,19 +9,14 @@ module.exports = class TransferOutDoc extends BaseModel {
 
         // Define properties.
         this.code = '';
-        this.date = new Date();
-        
-        this.reference = '';
-        
+        this.date = new Date();        
+        this.reference = '';        
         this.sourceId = {};
-        this.source = {};
-        
+        this.source = {};        
         this.destinationId = {};
         this.destination = {};
-
         this.items = [];
         this.remark = '';
-
         this.copy(source);
         
         var _items = [];

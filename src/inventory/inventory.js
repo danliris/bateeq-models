@@ -14,7 +14,6 @@ module.exports = class Inventory extends BaseModel {
         this.itemId = {};
         this.item = new Item();
         this.quantity = 0;
-
         this.copy(source);
     }
 }
