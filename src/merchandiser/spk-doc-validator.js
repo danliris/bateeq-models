@@ -43,6 +43,9 @@ module.exports = function (data) {
 
     data.should.have.property('isReceived');
     data.isDraft.should.be.Boolean();
+    
+    data.should.have.property('weight');
+    data.weight.should.be.Number();
 
     data.should.have.property('packingList');
     data.packingList.should.instanceof(String);
