@@ -26,6 +26,9 @@ module.exports = function(data) {
     data.cardTypeId.should.instanceof(Object);
     data.should.have.property('cardType');
     data.cardType.should.instanceof(Object);
+
+    data.should.have.property('promoDoc');
+    data.promoDoc.should.instanceof(Array);
     
     data.should.have.property('card');
     data.card.should.instanceof(String);

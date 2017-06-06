@@ -16,6 +16,7 @@ module.exports = class SalesDetail extends BaseModel {
         this.bankCard = {};
         this.cardTypeId = {};
         this.cardType = {};
+        this.promoDoc = [];
         this.card = '';
         this.cardNumber = '';
         this.cardName = ''; 
