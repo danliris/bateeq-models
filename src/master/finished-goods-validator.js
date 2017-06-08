@@ -28,6 +28,27 @@ module.exports = function (data) {
     data.should.have.property('motifDoc');
     data.motifDoc.should.instanceof(Object);
     
+    data.should.have.property('processDoc');
+    data.processDoc.should.instanceof(Object);
+
+    data.should.have.property('bahanDoc');
+    data.bahanDoc.should.instanceof(Object);
+
+    data.should.have.property('compositionDoc');
+    data.compositionDoc.should.instanceof(Object);
+
+    data.should.have.property('collectionDoc');
+    data.collectionDoc.should.instanceof(Object);
+
+    data.should.have.property('seasonDoc');
+    data.seasonDoc.should.instanceof(Object);
+
+    data.should.have.property('counterDoc');
+    data.counterDoc.should.instanceof(Object);
+
+    data.should.have.property('styleDoc');
+    data.styleDoc.should.instanceof(Object); 
+    
     data.should.have.property('domesticCOGS');
     data.domesticCOGS.should.be.Number();
 
