@@ -15,6 +15,7 @@ module.exports = class FinishedGoods extends Item {
         this.colorCode = '';
         this.colorDoc = {};
         this.motifDoc = {};
+        this.realizationOrderName = '';
         this.processDoc = {};
         this.bahanDoc = {};
         this.compositionDoc = {};
