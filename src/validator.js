@@ -36,7 +36,13 @@ module.exports = {
             articleTheme: require("./master/article/article-theme-validator"),
             articleType: require("./master/article/article-type-validator"),
             article: require("./master/article/article-validator"),
-            articleVariant: require("./master/article/article-variant-validator")
+            articleVariant: require("./master/article/article-variant-validator"),
+            articleProcess: require("./master/article/article-process-validator"),
+            articleSubProcess: require("./master/article/article-sub-process-validator"),
+            articleMaterialComposition: require("./master/article/article-material-composition-validator"),
+            articleSubMaterialComposition: require("./master/article/article-sub-material-composition-validator"),
+            articleCollection: require("./master/article/article-collection-validator"),
+            articleSubCollection: require("./master/article/article-sub-collection-validator") 
         },
         storage: require("./master/storage-validator"),
         supplier: require("./master/supplier-validator"),
