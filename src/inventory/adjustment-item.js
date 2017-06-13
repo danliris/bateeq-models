@@ -11,7 +11,6 @@ module.exports = class AdjustmentItem extends BaseModel {
         this.item = {};
         this.qtyBeforeAdjustment = 0;
         this.qtyAdjustment = 0;
-        this.type='';
         this.remark = '';
         this.copy(source);
     }
