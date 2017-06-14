@@ -13,6 +13,9 @@ module.exports = function (data) {
     data.should.have.property('qtyBeforeAdjustment');
     data.qtyBeforeAdjustment.should.be.Number();
 
+    data.should.have.property('type');
+    data.type.should.instanceof(String);
+
     data.should.have.property('qtyAdjustment');
     data.qtyAdjustment.should.be.Number();
 
