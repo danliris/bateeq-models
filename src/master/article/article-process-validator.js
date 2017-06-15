@@ -1,6 +1,6 @@
 require("should");
 
-var validateArticleSubProsess = require("./article-sub-process-validator");
+var validateArticleSubProcess = require("./article-sub-process-validator");
 
 module.exports = function (data) {
     data.should.not.equal(null);
@@ -15,10 +15,10 @@ module.exports = function (data) {
     data.should.have.property('description');
     data.description.should.instanceof(String);
 
-    data.should.have.property('subProsess');
-    data.subProsess.should.instanceof(Array);
+    data.should.have.property('subProcess');
+    data.subProcess.should.instanceof(Array);
 
-    for (var sub of data.subProsess) {
-        validateArticleSubProsess(sub);
+    for (var sub of data.subProcess) {
+        validateArticleSubProcess(sub);
     }
 };

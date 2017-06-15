@@ -2,9 +2,9 @@
 
 var BaseModel = require('model-toolkit').BaseModel; 
 
-module.exports = class ArticleSubProsess extends BaseModel {
+module.exports = class ArticleSubProcess extends BaseModel {
     constructor(source) {
-        super('article-sub-prosess', '1.0.0');
+        super('article-sub-process', '1.0.0');
 
         // Define properties.
         this.code = '';
