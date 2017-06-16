@@ -14,7 +14,9 @@ module.exports = {
         FinishedGoodsDoc: require('./src/inventory/finished-goods-doc'),
         ExpeditionDoc: require('./src/inventory/expedition-doc'),
         AdjusmentDoc: require('./src/inventory/adjustment-doc'),
-        AdjusmentItem: require('./src/inventory/adjustment-item')
+        AdjusmentItem: require('./src/inventory/adjustment-item'),
+        StockOpnameDoc: require('./src/inventory/stock-opname-doc'),
+        StockOpnameDocItem: require('./src/inventory/stock-opname-doc-item')
     },
     manufacture: {
         FabricConsumptionDocument: require('./src/manufacture/fabric-consumption-document'),

@@ -17,6 +17,8 @@ module.exports = {
         transferOutItem: require("./inventory/transfer-out-item-validator"),
         adjustmentDoc: require("./inventory/adjustment-doc-validator"),
         adjustmentItem: require("./inventory/adjustment-item-validator"),
+        stockOpnameDoc: require("./inventory/stock-opname-doc-validator"),
+        stockOpnameDocItem: require("./inventory/stock-opname-doc-item-validator")
     },
     master: {
         article: {

@@ -29,3 +29,8 @@ it("#05. AdjusmentDoc should valid", function () {
     var AdjusmentDoc = require('../src/inventory/adjustment-doc');
     validate.adjustmentDoc(new AdjusmentDoc());
 });
+
+it("#06. Stock Opname Document should valid", function () {
+    var StockOpname = require('../src/inventory/stock-opname-doc');
+    validate.stockOpnameDoc(new StockOpname());
+});

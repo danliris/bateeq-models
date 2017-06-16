@@ -19,7 +19,8 @@ module.exports = {
         TransferOutDoc: 'transfer-out-docs',
         FinishedGoodsDoc: 'finished-goods-docs',
         ExpeditionDoc: 'expedition-docs',
-        AdjustmentDoc: 'adjustment-docs'
+        AdjustmentDoc: 'adjustment-docs',
+        StockOpnameDoc: 'stock-opname-docs'
     },
     manufacture: {
         Finishing: 'finishings',
