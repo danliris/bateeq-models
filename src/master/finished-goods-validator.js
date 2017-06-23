@@ -28,8 +28,8 @@ module.exports = function (data) {
     data.should.have.property('motifDoc');
     data.motifDoc.should.instanceof(Object);
 
-    data.should.have.property('realizationOrderName');
-    data.realizationOrderName.should.instanceof(String);
+    // data.should.have.property('realizationOrderName');
+    // data.realizationOrderName.should.instanceof(String);
 
     data.should.have.property('processDoc');
     data.processDoc.should.instanceof(Object);
