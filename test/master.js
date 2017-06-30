@@ -75,3 +75,7 @@ it("#15. Expedition Service should valid", function () {
     validate.colour(new ExpeditionService());
 })
 
+it("#16. Range Disc Product should valid", function () {
+    var RangeDiscProduct = require('../src/master/range-disc-product');
+    validate.rangeDiscProduct(new RangeDiscProduct());
+})
