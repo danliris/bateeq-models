@@ -60,7 +60,8 @@ module.exports = {
         division: require("./master/division-validator"),
         unit: require("./master/unit-validator"),
         colour: require("./master/colour-validator"),
-        expeditionServices: require("./master/expedition-service-validator")
+        expeditionServices: require("./master/expedition-service-validator"),
+        rangeDiscProduct: require("./master/range-disc-product-validator")
     },
     manufacture: {
         fabricConsumptionDocument: require("./manufacture/fabric-consumption-document-validator"),
