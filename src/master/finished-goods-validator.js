@@ -25,11 +25,11 @@ module.exports = function (data) {
     data.should.have.property('colorDoc');
     data.colorDoc.should.instanceof(Object);
 
-    data.should.have.property('motifDoc');
-    data.motifDoc.should.instanceof(Object);
+    // data.should.have.property('motifDoc');
+    // data.motifDoc.should.instanceof(Object);
 
-    data.should.have.property('realizationOrderName');
-    data.realizationOrderName.should.instanceof(String);
+    // data.should.have.property('realizationOrderName');
+    // data.realizationOrderName.should.instanceof(String);
 
     data.should.have.property('processDoc');
     data.processDoc.should.instanceof(Object);
@@ -51,6 +51,9 @@ module.exports = function (data) {
 
     data.should.have.property('styleDoc');
     data.styleDoc.should.instanceof(Object);
+
+    data.should.have.property('categoryDoc');
+    data.categoryDoc.should.instanceof(Object);
 
     data.should.have.property('domesticCOGS');
     data.domesticCOGS.should.be.Number();
