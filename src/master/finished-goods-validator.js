@@ -16,8 +16,8 @@ module.exports = function (data) {
     data.should.have.property('imagePath');
     data.imagePath.should.instanceof(String);
 
-    data.should.have.property('motifPath');
-    data.motifPath.should.instanceof(String);
+    // data.should.have.property('motifPath');
+    // data.motifPath.should.instanceof(String);
 
     data.should.have.property('colorCode');
     data.colorCode.should.instanceof(String);
