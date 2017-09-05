@@ -12,8 +12,8 @@ module.exports = class Unit extends BaseModel {
         this.name = '';
         this.divisionId = {};
         this.division = new division();
-        this.storeId = {};
-        this.store = {};
+       // this.storeId = {};
+        //this.store = {};
         this.description = '';
         this.copy(source);
         this.division = new division(this.division);
