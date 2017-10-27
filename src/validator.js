@@ -71,7 +71,11 @@ module.exports = {
         costCalculationArticle: require("./manufacture/cost-calculation-article-validator"),
         costCalculationItem: require("./manufacture/cost-calculation-item-validator"),
         finishingItem: require("./manufacture/finishing-item-validator"),
-        finishing: require("./manufacture/finishing-validator")
+        finishing: require("./manufacture/finishing-validator"),
+        designTrackingBoard: require("./manufacture/design-tracking-board-validator"),
+        designTrackingStage: require("./manufacture/design-tracking-stage-validator"),
+        designTrackingDesign: require("./manufacture/design-tracking-design-validator"),
+        designTrackingActivity: require("./manufacture/design-tracking-activity-validator"),
     },
     merchandiser: {
         SPKDoc: require("./merchandiser/spk-doc-validator"),

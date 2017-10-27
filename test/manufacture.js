@@ -38,4 +38,24 @@ it("#07. Cost Calculation Article should valid", function(){
 it("#08. Cost Calculation Document should valid", function(){
     var CostCalculationDocument = require('../src/manufacture/cost-calculation-document');
     validate.costCalculationDocument(new CostCalculationDocument());
-})   
+})
+
+it("#09. Design Tracking Board should valid", function(){
+    var DesignTrackingBoard = require('../src/manufacture/design-tracking-board');
+    validate.designTrackingBoard(new DesignTrackingBoard());
+})
+
+it("#10. Design Tracking Stage should valid", function(){
+    var DesignTrackingStage = require('../src/manufacture/design-tracking-stage');
+    validate.designTrackingStage(new DesignTrackingStage());
+})
+
+it("#11. Design Tracking Design should valid", function(){
+    var DesignTrackingDesign = require('../src/manufacture/design-tracking-design');
+    validate.designTrackingDesign(new DesignTrackingDesign());
+})
+
+it("#12. Design Tracking Activity should valid", function(){
+    var DesignTrackingActivity = require('../src/manufacture/design-tracking-activity');
+    validate.designTrackingActivity(new DesignTrackingActivity());
+})
