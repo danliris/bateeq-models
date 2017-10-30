@@ -25,7 +25,11 @@ module.exports = {
     manufacture: {
         Finishing: 'finishings',
         CostCalculationDocument: 'cost-calculation-documents',
-        FabricConsumptionDocument: 'fabric-consumption-documents'
+        FabricConsumptionDocument: 'fabric-consumption-documents',
+        DesignTrackingBoard: 'design-tracking-boards',
+        DesignTrackingStage: 'design-tracking-stages',
+        DesignTrackingDesign: 'design-tracking-designs',
+        DesignTrackingActivity: 'design-tracking-activities'
     },
     master: {
         Item: 'items',

@@ -26,7 +26,11 @@ module.exports = {
         CostCalculationArticle: require('./src/manufacture/cost-calculation-article'),
         CostCalculationItem: require('./src/manufacture/cost-calculation-item'),
         FinishingItem: require('./src/manufacture/finishing-item'),
-        Finishing: require('./src/manufacture/finishing')
+        Finishing: require('./src/manufacture/finishing'),
+        DesignTrackingBoard: require('./src/manufacture/design-tracking-board'),
+        DesignTrackingStage: require('./src/manufacture/design-tracking-stage'),
+        DesignTrackingDesign: require('./src/manufacture/design-tracking-design'),
+        DesignTrackingActivity: require('./src/manufacture/design-tracking-activity')
     },
     master: {
         FinishedGoods: require('./src/master/finished-goods'),
