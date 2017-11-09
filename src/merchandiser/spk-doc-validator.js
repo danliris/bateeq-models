@@ -43,7 +43,7 @@ module.exports = function (data) {
 
     data.should.have.property('isReceived');
     data.isDraft.should.be.Boolean();
-    
+
     data.should.have.property('weight');
     data.weight.should.be.Number();
 
@@ -52,4 +52,7 @@ module.exports = function (data) {
 
     data.should.have.property('password');
     data.password.should.instanceof(String);
+
+    data.should.have.property('isDistributed');
+    data.password.should.Boolean();
 };

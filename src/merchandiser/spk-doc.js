@@ -23,6 +23,7 @@ module.exports = class SPKDoc extends BaseModel {
         this.password = '';
         this.isReceived = false;
         this.weight = 0;
+        this.isDistributed = false;
         this.copy(source);
 
         var _items = [];
