@@ -8,7 +8,6 @@ module.exports = class DesignTrackingBoard extends BaseModel {
 
         this.code = '';
         this.name = '';
-        this.numberOfStage = 0;
 
         this.copy(source);
     }
