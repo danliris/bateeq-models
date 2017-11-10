@@ -79,3 +79,8 @@ it("#16. Range Disc Product should valid", function () {
     var RangeDiscProduct = require('../src/master/range-disc-product');
     validate.rangeDiscProduct(new RangeDiscProduct());
 })
+
+it("#17. Design Tracking Reason should valid", function () {
+    var DesignTrackingReason = require('../src/master/design-tracking-reason');
+    validate.designTrackingReason(new DesignTrackingReason());
+})

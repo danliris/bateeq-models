@@ -61,7 +61,8 @@ module.exports = {
         unit: require("./master/unit-validator"),
         colour: require("./master/colour-validator"),
         expeditionServices: require("./master/expedition-service-validator"),
-        rangeDiscProduct: require("./master/range-disc-product-validator")
+        rangeDiscProduct: require("./master/range-disc-product-validator"),
+        designTrackingReason: require("./master/design-tracking-reason-validator")
     },
     manufacture: {
         fabricConsumptionDocument: require("./manufacture/fabric-consumption-document-validator"),
