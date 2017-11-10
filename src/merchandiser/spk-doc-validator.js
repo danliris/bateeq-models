@@ -54,5 +54,5 @@ module.exports = function (data) {
     data.password.should.instanceof(String);
 
     data.should.have.property('isDistributed');
-    data.password.should.Boolean();
+    data.isDistributed.should.Boolean();
 };

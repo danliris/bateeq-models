@@ -72,7 +72,8 @@ module.exports = {
         Unit: require('./src/master/unit'),
         Colour: require('./src/master/colour'),
         ExpeditionService: require('./src/master/expedition-service'),
-        RangeDiscProduct: require('./src/master/range-disc-product')
+        RangeDiscProduct: require('./src/master/range-disc-product'),
+        DesignTrackingReason: require('./src/master/design-tracking-reason')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
