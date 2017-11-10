@@ -1,6 +1,7 @@
 require("should");
 const validateDesigner = require('../auth/account-validator');
 const validateArticleCategory = require('../master/article/article-category-validator');
+const validateArticleCounter = require('../master/article/article-counter-validator');
 const validateArticleSeason = require('../master/article/article-season-validator');
 const validateArticleMaterialComposition = require('../master/article/article-material-composition-validator');
 const validateArticleSubCounter = require('../master/article/article-sub-counter-validator');
@@ -29,6 +30,13 @@ module.exports = function (data) {
     data.should.have.property('articleCategory');
     data.articleCategory.should.instanceof(Object);
     validateArticleCategory(data.articleCategory);
+
+    data.should.have.property('articleCounterId');
+    data.articleCounterId.should.instanceof(Object);
+
+    data.should.have.property('articleCounter');
+    data.articleCounter.should.instanceof(Object);
+    validateArticleCounter(data.articleCounter);
 
     data.should.have.property('articleSeasonId');
     data.articleSeasonId.should.instanceof(Object);
@@ -63,4 +71,7 @@ module.exports = function (data) {
 
     data.should.have.property('description');
     data.description.should.instanceOf(String);
+
+    data.should.have.property('reason');
+    data.reason.should.instanceOf(String);
 };
