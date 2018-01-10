@@ -94,11 +94,6 @@ module.exports = {
         Promo: 'promos'
     },
     purchasing: {
-        type: {
-            PurchaseRequest: 'purchase-request'
-        },
-        collection: {
-            PurchaseRequest: 'purchase-requests'
-        }
+        PurchaseRequest: 'purchase-requests'
     }
 };
