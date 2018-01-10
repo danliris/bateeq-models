@@ -98,7 +98,7 @@ module.exports = {
         PromoCriteriaPackage: require('./src/sales/promo-criteria-package'),
         PromoRewardSpecialPrice: require('./src/sales/promo-reward-special-price')
     },
-    puchasing: {
+    purchasing: {
         enum: {
             PurchaseRequestStatus: require('./src/purchasing/enum/purchase-request-status-enum'),
             PurchaseOrderStatus: require('./src/purchasing/enum/purchase-order-status-enum')
