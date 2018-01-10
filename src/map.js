@@ -78,7 +78,12 @@ module.exports = {
         },
         ExpeditionService: 'expedition-services',
         RangeDiscProduct: 'range-disc-products',
-        DesignTrackingReason: 'design-tracking-reasons'
+        DesignTrackingReason: 'design-tracking-reasons',
+        Budget: 'budgets',
+        Category: 'categories',
+        Currency: 'currencies',
+        uom: 'unit-of-measurements',
+        Product: 'products'
     },
     merchandiser: {
         SPKDoc: 'spk-docs'
