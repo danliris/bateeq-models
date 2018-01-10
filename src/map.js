@@ -87,5 +87,8 @@ module.exports = {
         SalesDoc: 'sales-docs',
         SalesReturnDoc: 'sales-return-docs',
         Promo: 'promos'
+    },
+    purchasing: {
+        PurchaseRequest: 'purchase-request'
     }
 };
