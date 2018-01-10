@@ -89,7 +89,11 @@ module.exports = {
         Promo: 'promos'
     },
     purchasing: {
-        PurchaseRequest: 'purchase-request',
-        PurchaseRequestItem: 'purchase-Request-Item'
+        type: {
+            PurchaseRequest: 'purchase-request'
+        },
+        collection: {
+            PurchaseRequest: 'purchase-requests'
+        }
     }
 };
