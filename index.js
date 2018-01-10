@@ -73,7 +73,12 @@ module.exports = {
         Colour: require('./src/master/colour'),
         ExpeditionService: require('./src/master/expedition-service'),
         RangeDiscProduct: require('./src/master/range-disc-product'),
-        DesignTrackingReason: require('./src/master/design-tracking-reason')
+        DesignTrackingReason: require('./src/master/design-tracking-reason'),
+        Budget: require('./src/master/budget'),
+        Category: require('./src/master/category'),
+        Currency: require('./src/master/currency'),
+        Product: require('./src/master/product'),
+        Uom: require('./src/master/uom')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
@@ -93,6 +98,15 @@ module.exports = {
         PromoCriteriaPackage: require('./src/sales/promo-criteria-package'),
         PromoRewardSpecialPrice: require('./src/sales/promo-reward-special-price')
     },
+    puchasing: {
+        enum: {
+            PurchaseRequestStatus: require('./src/purchasing/enum/purchase-request-status-enum'),
+            PurchaseOrderStatus: require('./src/purchasing/enum/purchase-order-status-enum')
+        },
+        PurchaseRequestItem: require('./src/purchasing/purchase-request-item'),
+        PurchaseRequest: require('./src/purchasing/purchase-request')
+    },
+
     map: require("./src/map"),
     validator: require("./src/validator")
 }
