@@ -82,7 +82,7 @@ module.exports = {
         Budget: 'budgets',
         Category: 'categories',
         Currency: 'currencies',
-        uom: 'unit-of-measurements',
+        Uom: 'unit-of-measurements',
         Product: 'products'
     },
     merchandiser: {
