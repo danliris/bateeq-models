@@ -6,7 +6,7 @@ var map = require('../map');
 
 module.exports = class PurchaseRequest extends BaseModel {
     constructor(source, type) { 
-        super(type || map.purchasing.type.PurchaseRequest, '1.0.0');
+        super('purchase-request', '1.0.0');
 
         this.no='';
         this.date = new Date();

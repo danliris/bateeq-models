@@ -5,7 +5,7 @@ var uom = require('../master/uom'); //not implemented
 
 module.exports = class PurchaseRequestItem extends BaseModel {
     constructor(source, type) {
-        super(type || 'purchase-request-item', '1.0.0');
+        super('purchase-request-item', '1.0.0');
 
         this.productId = {};
         this.product = new Product();
