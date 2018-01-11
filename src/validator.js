@@ -97,7 +97,7 @@ module.exports = {
         promoRewardSpecialPrice: require("./sales/promo-reward-special-price-validator")
     },
     purchasing: {
-        purchaseRequest: require("./purchasing/purchase-request-item-validator"),
+        purchaseRequest: require("./purchasing/purchase-request-validator"),
         purchaseRequestItem: require("./purchasing/purchase-request-item-validator")
     }
 };
