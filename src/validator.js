@@ -62,7 +62,14 @@ module.exports = {
         colour: require("./master/colour-validator"),
         expeditionServices: require("./master/expedition-service-validator"),
         rangeDiscProduct: require("./master/range-disc-product-validator"),
-        designTrackingReason: require("./master/design-tracking-reason-validator")
+        designTrackingReason: require("./master/design-tracking-reason-validator"),
+        budget: require('./master/budget-validator'),
+        category: require('./master/category-validator'),
+        currency: require('./master/currency-validator'),
+        uom: require('./master/uom-validator'),
+        product: require('./master/product-validator'),
+        buyer: require('./master/buyer-validator'),
+        vat: require('./master/vat-validator')
     },
     manufacture: {
         fabricConsumptionDocument: require("./manufacture/fabric-consumption-document-validator"),
@@ -98,6 +105,8 @@ module.exports = {
     },
     purchasing: {
         purchaseRequest: require("./purchasing/purchase-request-validator"),
-        purchaseRequestItem: require("./purchasing/purchase-request-item-validator")
+        purchaseRequestItem: require("./purchasing/purchase-request-item-validator"),
+        purchaseOrderItem: require('./purchasing/purchase-order-item-validator'),
+        purchaseOrder: require('./purchasing/purchase-order-validator')
     }
 };
