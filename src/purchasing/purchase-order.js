@@ -9,7 +9,7 @@ var Vat = require('../master/vat');
 
 module.exports = class PurchaseOrder extends BaseModel {
     constructor(source, type) {
-        super(type || map.purchasing.type.PurchaseOrder, '1.0.0');
+        super(type || 'purchase-order', '1.0.0');
 
         // Define properties
         this.no = '';
