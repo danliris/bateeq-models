@@ -78,7 +78,9 @@ module.exports = {
         Category: require('./src/master/category'),
         Currency: require('./src/master/currency'),
         Product: require('./src/master/product'),
-        Uom: require('./src/master/uom')
+        Uom: require('./src/master/uom'),
+        Buyer: require('./src/master/buyer'),
+        Vat: require('./src/master/vat')
     },
     merchandiser: {
         SPK: require('./src/merchandiser/spk-doc'),
