@@ -83,7 +83,9 @@ module.exports = {
         Category: 'categories',
         Currency: 'currencies',
         Uom: 'unit-of-measurements',
-        Product: 'products'
+        Product: 'products',
+        Buyer: 'buyers',
+        Vat: 'vats'
     },
     merchandiser: {
         SPKDoc: 'spk-docs'
@@ -94,6 +96,7 @@ module.exports = {
         Promo: 'promos'
     },
     purchasing: {
-        PurchaseRequest: 'purchase-requests'
+        PurchaseRequest: 'purchase-requests',
+        PurchaseOrder: 'purchase-order'
     }
 };
