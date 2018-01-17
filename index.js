@@ -104,7 +104,9 @@ module.exports = {
             PurchaseOrderStatus: require('./src/purchasing/enum/purchase-order-status-enum')
         },
         PurchaseRequestItem: require('./src/purchasing/purchase-request-item'),
-        PurchaseRequest: require('./src/purchasing/purchase-request')
+        PurchaseRequest: require('./src/purchasing/purchase-request'),
+        PurchaseOrder: require('./src/purchasing/purchase-order'),
+        PurchaseOrderItem: require('./src/purchasing/purchase-order-item')
     },
 
     map: require("./src/map"),
