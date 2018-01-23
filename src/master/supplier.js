@@ -13,7 +13,10 @@ module.exports = class Supplier extends BaseModel {
         this.address = '';
         this.contact = '';
         this.phone = '';
-        
+        this.PIC = '';
+        this.import = false;
+        this.NPWP = '';
+        this.serialNumber = '';
         this.copy(source);
     }
 }
