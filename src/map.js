@@ -97,6 +97,7 @@ module.exports = {
     },
     purchasing: {
         PurchaseRequest: 'purchase-requests',
-        PurchaseOrder: 'purchase-order'
+        PurchaseOrder: 'purchase-order',
+        PurchaseOrderExternal: 'purchase-order-externals'
     }
 };

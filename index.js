@@ -108,7 +108,9 @@ module.exports = {
         PurchaseRequestItem: require('./src/purchasing/purchase-request-item'),
         PurchaseRequest: require('./src/purchasing/purchase-request'),
         PurchaseOrder: require('./src/purchasing/purchase-order'),
-        PurchaseOrderItem: require('./src/purchasing/purchase-order-item')
+        PurchaseOrderItem: require('./src/purchasing/purchase-order-item'),
+        PurchaseOrderExternal: require('./src/purchasing/purchase-order-external'),
+        QualityStandard: require('./src/purchasing/quality-standard'),
     },
 
     map: require("./src/map"),

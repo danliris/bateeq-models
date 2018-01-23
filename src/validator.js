@@ -107,6 +107,7 @@ module.exports = {
         purchaseRequest: require("./purchasing/purchase-request-validator"),
         purchaseRequestItem: require("./purchasing/purchase-request-item-validator"),
         purchaseOrderItem: require('./purchasing/purchase-order-item-validator'),
-        purchaseOrder: require('./purchasing/purchase-order-validator')
+        purchaseOrder: require('./purchasing/purchase-order-validator'),
+        purchaseOrderExternal: require("./purchasing/purchase-order-external-validator"),
     }
 };
