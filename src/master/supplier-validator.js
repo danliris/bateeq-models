@@ -22,15 +22,15 @@ module.exports = function(data) {
     data.should.have.property('phone');
     data.phone.should.instanceof(String);
 
-    data.supplier.should.have.property('PIC');
+    data.should.have.property('PIC');
     data.PIC.should.instanceOf(String);
 
-    data.supplier.should.have.property('import');
+    data.should.have.property('import');
     data.import.should.instanceOf(Boolean);
 
-    data.supplier.should.have.property('NPWP');
+    data.should.have.property('NPWP');
     data.NPWP.should.instanceOf(String);
 
-    data.supplier.should.have.property('serialNumber');
+    data.should.have.property('serialNumber');
     data.serialNumber.should.instanceOf(String);
 };
