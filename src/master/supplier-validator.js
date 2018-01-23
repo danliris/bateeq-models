@@ -21,4 +21,16 @@ module.exports = function(data) {
 
     data.should.have.property('phone');
     data.phone.should.instanceof(String);
+
+    data.supplier.should.have.property('PIC');
+    data.supplier.PIC.should.instanceOf(String);
+
+    data.supplier.should.have.property('import');
+    data.supplier.import.should.instanceOf(Boolean);
+
+    data.supplier.should.have.property('NPWP');
+    data.supplier.NPWP.should.instanceOf(String);
+
+    data.supplier.should.have.property('serialNumber');
+    data.supplier.serialNumber.should.instanceOf(String);
 };
