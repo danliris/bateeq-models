@@ -16,6 +16,9 @@ module.exports = function(data) {
     data.should.have.property('address');
     data.address.should.instanceof(String);
 
+    data.should.have.property('contact');
+    data.description.should.instanceof(String);
+
     data.should.have.property('phone');
     data.phone.should.instanceof(String);
 };
