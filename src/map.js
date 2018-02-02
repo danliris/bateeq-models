@@ -98,6 +98,7 @@ module.exports = {
     purchasing: {
         PurchaseRequest: 'purchase-requests',
         PurchaseOrder: 'purchase-order',
-        PurchaseOrderExternal: 'purchase-order-externals'
+        PurchaseOrderExternal: 'purchase-order-externals',
+        DeliveryOrder: 'delivery-orders',
     }
 };
