@@ -113,7 +113,9 @@ module.exports = {
         QualityStandard: require('./src/purchasing/quality-standard'),
         DeliveryOrder: require('./src/purchasing/delivery-order'),
         DeliveryOrderItem: require('./src/purchasing/delivery-order-item'),
-        DeliveryOrderItemFulfillment: require('./src/purchasing/delivery-order-item-fulfillment')
+        DeliveryOrderItemFulfillment: require('./src/purchasing/delivery-order-item-fulfillment'),
+        UnitPaymentOrder: require('./src/purchasing/unit-payment-order'),
+        UnitReceiptNote: require('./src/purchasing/unit-receipt-note')
     },
 
     map: require("./src/map"),
