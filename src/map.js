@@ -100,5 +100,7 @@ module.exports = {
         PurchaseOrder: 'purchase-order',
         PurchaseOrderExternal: 'purchase-order-externals',
         DeliveryOrder: 'delivery-orders',
+        UnitPaymentOrder: 'unit-payment-orders',
+        UnitReceiptNote: 'unit-receipt-notes'
     }
 };
