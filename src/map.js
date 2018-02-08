@@ -20,7 +20,8 @@ module.exports = {
         FinishedGoodsDoc: 'finished-goods-docs',
         ExpeditionDoc: 'expedition-docs',
         AdjustmentDoc: 'adjustment-docs',
-        StockOpnameDoc: 'stock-opname-docs'
+        StockOpnameDoc: 'stock-opname-docs',
+        InventoryDocument: "inventory-documents"
     },
     manufacture: {
         Finishing: 'finishings',
