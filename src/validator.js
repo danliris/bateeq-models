@@ -18,7 +18,8 @@ module.exports = {
         adjustmentDoc: require("./inventory/adjustment-doc-validator"),
         adjustmentItem: require("./inventory/adjustment-item-validator"),
         stockOpnameDoc: require("./inventory/stock-opname-doc-validator"),
-        stockOpnameDocItem: require("./inventory/stock-opname-doc-item-validator")
+        stockOpnameDocItem: require("./inventory/stock-opname-doc-item-validator"),
+        inventoryDocument: require("./inventory/inventory-document-validator")
     },
     master: {
         article: {
