@@ -117,7 +117,9 @@ module.exports = {
         DeliveryOrderItem: require('./src/purchasing/delivery-order-item'),
         DeliveryOrderItemFulfillment: require('./src/purchasing/delivery-order-item-fulfillment'),
         UnitPaymentOrder: require('./src/purchasing/unit-payment-order'),
-        UnitReceiptNote: require('./src/purchasing/unit-receipt-note')
+        UnitReceiptNote: require('./src/purchasing/unit-receipt-note'),
+        UnitPaymentCorrectionNote: require('./src/purchasing/unit-payment-correction-note'),
+        UnitPaymentCorrectionNoteItem: require('./src/purchasing/unit-payment-correction-note-item')
     },
 
     map: require("./src/map"),

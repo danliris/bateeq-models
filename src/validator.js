@@ -111,6 +111,8 @@ module.exports = {
         purchaseOrderItem: require('./purchasing/purchase-order-item-validator'),
         purchaseOrder: require('./purchasing/purchase-order-validator'),
         purchaseOrderExternal: require("./purchasing/purchase-order-external-validator"),
-        deliveryOrder: require("./purchasing/delivery-order-validator")
+        deliveryOrder: require("./purchasing/delivery-order-validator"),
+        unitPaymentCorrectionNote: require("./purchasing/unit-payment-correction-note-validator"),
+                unitPaymentCorrectionNoteItem: require("./purchasing/unit-payment-correction-note-item-validator")
     }
 };
