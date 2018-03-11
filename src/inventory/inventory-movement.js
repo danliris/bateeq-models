@@ -3,6 +3,7 @@
 var BaseModel = require('model-toolkit').BaseModel;
 var Storage = require('../master/storage');
 var Item = require('../master/item');
+var Product = require('../master/product');
 
 module.exports = class InventoryMovement extends BaseModel {
     constructor(source) {
@@ -21,6 +22,8 @@ module.exports = class InventoryMovement extends BaseModel {
         this.quantity = 0;
         this.after = 0;
         this.remark = '';
+        this.productId = {};
+        this.product = new Product();
         this.copy(source);
     }
 }
