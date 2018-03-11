@@ -22,4 +22,11 @@ module.exports = function(data) {
 
     data.should.have.property('quantity');
     data.quantity.should.be.Number();
+
+    data.should.have.property('productId');
+    data.productId.should.instanceof(Object);
+
+    data.should.have.property('product');
+    data.product.should.instanceof(Object);
+    validateArticleVariant(data.product);
 };

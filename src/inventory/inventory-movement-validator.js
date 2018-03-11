@@ -43,4 +43,11 @@ module.exports = function(data) {
 
     data.should.have.property('remark');
     data.remark.should.instanceof(String);
+
+    data.should.have.property('productId');
+    data.productId.should.instanceof(Object);
+
+    data.should.have.property('product');
+    data.product.should.instanceof(Object);
+    validateArticleVariant(data.product);
 };
