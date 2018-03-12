@@ -1,6 +1,7 @@
 require("should");
 var validateStorage = require("../master/storage-validator");
 var validateArticleVariant = require('../master/item-validator');
+var validateProduct = require('../master/product-validator');
 
 module.exports = function(data) {
     data.should.not.equal(null);
@@ -49,5 +50,5 @@ module.exports = function(data) {
 
     data.should.have.property('product');
     data.product.should.instanceof(Object);
-    validateArticleVariant(data.product);
+    validateProduct(data.product);
 };
