@@ -115,6 +115,6 @@ module.exports = {
         unitPaymentCorrectionNote: require("./purchasing/unit-payment-correction-note-validator"),
         unitPaymentCorrectionNoteItem: require("./purchasing/unit-payment-correction-note-item-validator"),
         unitReceiptNote : require('./purchasing/unit-receipt-note-validator'),
-        unitPaymentOrder : require('./purchasing/unit-payment-order')
+        unitPaymentOrder : require('./purchasing/unit-payment-order-validator')
     }
 };
