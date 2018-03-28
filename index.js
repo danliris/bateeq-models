@@ -5,6 +5,9 @@ module.exports = {
         Role: require('./src/auth/role')
     },
     inventory: {
+        master : {
+            Discount : require('./src/inventory/master/discount')
+        },
         InventoryMovement: require('./src/inventory/inventory-movement'),
         Inventory: require('./src/inventory/inventory'),
         TransferInDoc: require('./src/inventory/transfer-in-doc'),
