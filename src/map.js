@@ -11,6 +11,9 @@ module.exports = {
         }
     },
     inventory: {
+        master: {
+            Discount: 'discounts'
+        },
         StockIn: 'stock-ins',
         StockOut: 'stock-outs',
         Inventory: 'inventories',

@@ -5,6 +5,9 @@ module.exports = {
         role: require("./auth/role-validator")
     },
     inventory: {
+        master : {
+            discount: require('./inventory/master/discount-validator')
+        },
         expeditionDoc: require("./inventory/expedition-doc-validator"),
         expeditionSPK: require("./inventory/expedition-spk-validator"),
         finishedGoodsDoc: require("./inventory/finished-goods-doc-validator"),
