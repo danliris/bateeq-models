@@ -10,9 +10,10 @@ module.exports = class Discount extends BaseModel {
         this.name = "";
         this.startDate = new Date();
         this.endDate = new Date();
-        this.discountType = "";
+        this.discountMapping = "";
         this.storeId = {};
         this.store = new Store();
+        this.storeCategory = "";
         this.copy(source);
     }
 }
