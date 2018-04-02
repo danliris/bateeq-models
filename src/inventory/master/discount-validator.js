@@ -11,11 +11,18 @@ module.exports = function (data) {
     data.name.should.instanceOf(String);
 
     data.should.have.property('startDate');
-    data.date.should.instanceof(Date);
+    data.startDate.should.instanceof(Date);
 
     data.should.have.property('endDate');
-    data.date.should.instanceof(Date);
+    data.endDate.should.instanceof(Date);
 
     data.should.have.property('discountType');
-    data.name.should.instanceOf(String);
+    data.discountType.should.instanceOf(String);
+
+    data.should.have.property('storeId');
+    data.storeId.should.instanceof(Object);
+
+    data.should.have.property('store');
+    data.store.should.instanceof(Object);
+    validateBudget(data.store);
 };
