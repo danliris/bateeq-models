@@ -25,7 +25,6 @@ module.exports = function (data) {
 
     data.should.have.property('store');
     data.store.should.instanceof(Object);
-    validateStore(data.store);
 
     data.should.have.property('storeCategory');
     data.storeCategory.should.instanceOf(String);
