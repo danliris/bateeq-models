@@ -1,5 +1,4 @@
 require("should");
-var validateStore = require("./../../master/store-validator");
 
 module.exports = function (data) {
     data.should.not.equal(null);
