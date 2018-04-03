@@ -1,5 +1,4 @@
 require("should");
-var validateStore = require("./../../master/store-validator");
 
 module.exports = function (data) {
     data.should.not.equal(null);
@@ -28,4 +27,10 @@ module.exports = function (data) {
 
     data.should.have.property('storeCategory');
     data.storeCategory.should.instanceOf(String);
+
+    data.should.have.property('itemId');
+    data.itemId.should.instanceof(Object);
+
+    data.should.have.property('item');
+    data.item.should.instanceof(Object);
 };
