@@ -7,8 +7,8 @@ module.exports = function (data) {
     data.should.have.property('code');
     data.code.should.instanceOf(String);
 
-    data.should.have.property('name');
-    data.name.should.instanceOf(String);
+    data.should.have.property('discount');
+    data.discount.should.instanceOf(Number);
 
     data.should.have.property('startDate');
     data.startDate.should.instanceof(Date);
