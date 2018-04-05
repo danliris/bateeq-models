@@ -1,8 +1,6 @@
 'use strict';
 
 var BaseModel = require('model-toolkit').BaseModel;
-var Store = require('../../master/store');
-var Item = require('../../master/item');
 
 module.exports = class Discount extends BaseModel {
     constructor(source) {
@@ -12,11 +10,9 @@ module.exports = class Discount extends BaseModel {
         this.startDate = new Date();
         this.endDate = new Date();
         this.discountMapping = "";
-        this.storeId = {};
-        this.store = new Store();
+        this.stores = [];
         this.storeCategory = "";
-        this.itemId = {};
-        this.item = new Item()
+        this.items = [];
         this.copy(source);
     }
 }
