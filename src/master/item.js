@@ -15,6 +15,7 @@ module.exports = class Item extends BaseModel {
 
         this.components = [];
         this.tags = '';
+        this.remark = '';
 
         this.copy(source);
 
