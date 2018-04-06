@@ -20,11 +20,11 @@ module.exports = function (data) {
     data.discountMapping.should.instanceOf(String);
 
     data.should.have.property('stores');
-    data.store.should.instanceof(Array);
+    data.stores.should.instanceof(Array);
 
     data.should.have.property('storeCategory');
     data.storeCategory.should.instanceOf(String);
 
     data.should.have.property('items');
-    data.item.should.instanceof(Array);
+    data.items.should.instanceof(Array);
 };
