@@ -21,6 +21,9 @@ var validateItem = function(data) {
     
     data.should.have.property('components');
     data.components.should.instanceof(Array);
+
+    data.should.have.property('remark');
+    data.remark.should.instanceof(String);
 };
 
 module.exports = validateItem;

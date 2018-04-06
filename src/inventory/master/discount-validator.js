@@ -7,8 +7,8 @@ module.exports = function (data) {
     data.should.have.property('code');
     data.code.should.instanceOf(String);
 
-    data.should.have.property('name');
-    data.name.should.instanceOf(String);
+    data.should.have.property('discount');
+    data.discount.should.instanceOf(Number);
 
     data.should.have.property('startDate');
     data.startDate.should.instanceof(Date);
@@ -19,18 +19,12 @@ module.exports = function (data) {
     data.should.have.property('discountMapping');
     data.discountMapping.should.instanceOf(String);
 
-    data.should.have.property('storeId');
-    data.storeId.should.instanceof(Object);
-
-    data.should.have.property('store');
-    data.store.should.instanceof(Object);
+    data.should.have.property('stores');
+    data.store.should.instanceof(Array);
 
     data.should.have.property('storeCategory');
     data.storeCategory.should.instanceOf(String);
 
-    data.should.have.property('itemId');
-    data.itemId.should.instanceof(Object);
-
-    data.should.have.property('item');
-    data.item.should.instanceof(Object);
+    data.should.have.property('items');
+    data.item.should.instanceof(Array);
 };
