@@ -7,18 +7,18 @@ module.exports = function (data) {
     data.should.have.property('code');
     data.code.should.instanceOf(String);
 
-    data.should.have.property('discount');
-    data.discount.should.instanceOf(Number);
+    data.should.have.property('discountOne');
+    data.discountOne.should.instanceOf(Number);
+
+    data.should.have.property('discountTwo');
+    data.discountTwo.should.instanceOf(Number);
 
     data.should.have.property('startDate');
     data.startDate.should.instanceof(Date);
 
     data.should.have.property('endDate');
     data.endDate.should.instanceof(Date);
-
-    data.should.have.property('discountMapping');
-    data.discountMapping.should.instanceOf(String);
-
+    
     data.should.have.property('stores');
     data.stores.should.instanceof(Array);
 
