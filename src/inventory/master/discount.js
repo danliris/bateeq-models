@@ -6,10 +6,10 @@ module.exports = class Discount extends BaseModel {
     constructor(source) {
         super('discount', '1.0.0');
         this.code = "";
-        this.discount = 0;
+        this.discountOne = 0;
+        this.discountTwo = 0;
         this.startDate = new Date();
         this.endDate = new Date();
-        this.discountMapping = "";
         this.stores = [];
         this.storeCategory = "";
         this.items = [];
