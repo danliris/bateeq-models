@@ -25,7 +25,10 @@ module.exports = {
         AdjustmentDoc: 'adjustment-docs',
         StockOpnameDoc: 'stock-opname-docs',
         InventoryDocument: "inventory-documents",
-        InventorySummary: "inventory-summaries"
+        InventorySummary: "inventory-summaries",
+        DocumentInventory : "documents-inventory",
+        MovementInventory : "movements-inventory",
+        SummaryInventory : "summaries-inventory"
     },
     manufacture: {
         Finishing: 'finishings',
