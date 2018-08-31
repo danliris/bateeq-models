@@ -122,7 +122,8 @@ module.exports = {
         UnitPaymentOrder: require('./src/purchasing/unit-payment-order'),
         UnitReceiptNote: require('./src/purchasing/unit-receipt-note'),
         UnitPaymentCorrectionNote: require('./src/purchasing/unit-payment-correction-note'),
-        UnitPaymentCorrectionNoteItem: require('./src/purchasing/unit-payment-correction-note-item')
+        UnitPaymentCorrectionNoteItem: require('./src/purchasing/unit-payment-correction-note-item'),
+        PurchaseCorrection: require('./src/purchasing/purchase-correction')
     },
 
     map: require("./src/map"),
