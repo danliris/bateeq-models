@@ -23,7 +23,10 @@ module.exports = {
         stockOpnameDoc: require("./inventory/stock-opname-doc-validator"),
         stockOpnameDocItem: require("./inventory/stock-opname-doc-item-validator"),
         inventoryDocument: require("./inventory/inventory-document-validator"),
-        inventorySummary: require("./inventory/inventory-summary-validator")
+        inventorySummary: require("./inventory/inventory-summary-validator"),
+        summaryInventory: require("./inventory/summary-inventory-validator"),
+        movementInventory: require("./inventory/movement-inventory-validator"),
+        documentInventory: require("./inventory/document-inventory-validator")
     },
     master: {
         article: {
