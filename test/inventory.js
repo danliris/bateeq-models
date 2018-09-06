@@ -25,12 +25,32 @@ it("#05. ExpeditionDoc should valid", function () {
     validate.expeditionDoc(new ExpeditionDoc());
 });
 
-it("#05. AdjusmentDoc should valid", function () {
+it("#06. AdjusmentDoc should valid", function () {
     var AdjusmentDoc = require('../src/inventory/adjustment-doc');
     validate.adjustmentDoc(new AdjusmentDoc());
 });
 
-it("#06. Stock Opname Document should valid", function () {
+it("#07. Stock Opname Document should valid", function () {
     var StockOpname = require('../src/inventory/stock-opname-doc');
     validate.stockOpnameDoc(new StockOpname());
+});
+
+it("#08. movement-inventory should valid", function () {
+    var MovementInventory = require('../src/inventory/movement-inventory');
+    validate.movementInventory(new MovementInventory());
+});
+
+it("#09. summary-inventory should valid", function () {
+    var SummaryInventory = require('../src/inventory/summary-inventory');
+    validate.summaryInventory(new SummaryInventory());
+});
+
+it("#10. document inventory should valid", function () {
+    var DocumentInventory = require('../src/inventory/document-inventory');
+    validate.documentInventory(new DocumentInventory());
+});
+
+it("#11.(2) document inventory should valid", function () {
+    var DocumentInventoryItem = require('../src/inventory/document-inventory-item');
+    validate.documentInventoryItem(new DocumentInventoryItem());
 });
