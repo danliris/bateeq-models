@@ -13,6 +13,7 @@ module.exports = class Discount extends BaseModel {
         this.stores = [];
         this.storeCategory = "";
         this.items = [];
+        this.information = "";
         this.copy(source);
     }
 }

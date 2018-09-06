@@ -27,4 +27,7 @@ module.exports = function (data) {
 
     data.should.have.property('items');
     data.items.should.instanceof(Array);
+
+    data.should.have.property('information');
+    data.information.should.instanceOf(String);
 };
