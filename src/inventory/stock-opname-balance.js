@@ -8,8 +8,8 @@ module.exports = class StockOpnameBalance extends BaseModel {
 
         // Define properties.
         this.code = "";
-        this.store = {};
-        this.StockOpnameDocCodes = [];
+        this.storage = {};
+        this.stockOpnameDocCodes = [];
         this.products = [];
         this.copy(source);
     }
