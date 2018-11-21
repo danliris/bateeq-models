@@ -28,7 +28,11 @@ module.exports = {
         InventorySummary: "inventory-summaries",
         DocumentInventory : "documents-inventory",
         MovementInventory : "movements-inventory",
-        SummaryInventory : "summaries-inventory"
+        SummaryInventory : "summaries-inventory",
+        StockOpnameBalance : 'stock-opname-balances',
+        StockOpnameProductRecord : 'stock-opname-product-records',
+        StockOpnameBalanceHistory : 'stock-opname-balance-history'
+
     },
     manufacture: {
         Finishing: 'finishings',

@@ -24,7 +24,10 @@ module.exports = {
         StockOpnameDoc: require('./src/inventory/stock-opname-doc'),
         StockOpnameDocItem: require('./src/inventory/stock-opname-doc-item'),
         InventoryDocument: require("./src/inventory/inventory-document"),
-        InventorySummary: require("./src/inventory/inventory-summary")
+        InventorySummary: require("./src/inventory/inventory-summary"),
+        StockOpnameBalance : require("./src/inventory/stock-opname-balance"),
+        StockOpnameProductRecord : require("./src/inventory/stock-opname-product-record"),
+        StockOpnameBalanceHistory : require("./src/inventory/stock-opname-balance-history")
     },
     manufacture: {
         FabricConsumptionDocument: require('./src/manufacture/fabric-consumption-document'),
