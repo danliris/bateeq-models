@@ -8,7 +8,7 @@ module.exports = class StockOpnameProductRecord extends BaseModel {
 
         // Define properties.
         this.productCode = "";
-        this.ProductName = "";
+        this.productName = "";
         this.quantityOpname = 0;
         this.copy(source);
     }
