@@ -9,8 +9,9 @@ module.exports = class StockOpnameBalance extends BaseModel {
         // Define properties.
         this.code = "";
         this.storage = {};
-        this.stockOpnameDocCodes = [];
-        this.products = [];
+        this.product = {};
+        this.opnameDate = new Date();
+        this.lastOpnameDate = new Date();
         this.copy(source);
     }
 }
