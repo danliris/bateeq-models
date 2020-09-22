@@ -37,7 +37,10 @@ module.exports = function(data) {
     data.store.should.instanceof(Object); 
  
     data.should.have.property('remark');
-    data.remark.should.instanceof(String); 
+    data.remark.should.instanceof(String);
+    
+    data.should.have.property('accountBateeqshop');
+    data.remark.should.instanceof(String);
     
     data.should.have.property('isVoid');
     data.isVoid.should.instanceof(Boolean); 

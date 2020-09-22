@@ -24,6 +24,7 @@ module.exports = class SalesDoc extends BaseModel {
         this.items = [];
         this.salesDetail = {};
         this.remark = '';
+        this.accountBateeqshop = '';
 
         this.isReturn = false;
         this.isVoid = false;
