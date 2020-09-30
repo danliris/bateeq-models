@@ -40,6 +40,15 @@ module.exports = function(data) {
 
     data.should.have.property('shifts');
     data.shifts.should.instanceof(Array);
+
+    data.should.have.property('email');
+    data.description.should.instanceof(String);
+
+    data.should.have.property('latitude');
+    data.description.should.instanceof(String);
+
+    data.should.have.property('longitude');
+    data.description.should.instanceof(String);
     
     for (var shift of data.shifts) {
         validateShift(shift);

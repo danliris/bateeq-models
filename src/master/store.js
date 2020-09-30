@@ -20,7 +20,9 @@ module.exports = class Store extends BaseModel {
         this.phone = '';
         this.salesCapital = 0;
         this.shifts = [];
-
+        this.email = '';
+        this.latitude = '';
+        this.longitude = ''
 
         this.copy(source);
         
